@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const { getHouses, deleteHouse, createHouse, updateHouse } = require("./controller");
+const { getHouses, deleteHouse, createHouse, updateHouse } = require("./controller.js");
 
 ////////////////////////////////////
 
